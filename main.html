@@ -8,23 +8,24 @@
 
 <body>
 
-	<h1 >My Playlist</h1>
+	<h1 id="text" >My Playlist</h1>
 	<div class="my-list ">
 		<ul>
-			<li>Song1</li>
-			<li>Song2</li>
-			<li>Song3</li>
-			<li>Song4</li>
-			<li>Song5</li>
+			<li id="song">Song 1</li>
+			<li  id="song">Song 2</li>
+			<li  id="song">Song 3</li>
+			<li  id="song">Song 4</li>
+			<li  id="song">Song 5</li>
 		</ul>
 	</div>
-	<h3><center></center>Now Playing...</center></h3>
+	<h2 id="text">Now Playing...</h2>
 	<div class="my-player ">
-		<video width="320" height="240" controls>
+		<video class="player_one" width="320" height="240" controls>
            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
 		</video>
-		<h3>MP3 songs</h3>
-		<audio controls>
+		<h2 id="text">MP3 songs</h2>
+		<a class="my-link" href="#">Maan Meri Jaan</a><br>
+		<audio class="player_two" controls>
         <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/ogg">
 	</div>
 	<!-- the entire body must be written by student -->
