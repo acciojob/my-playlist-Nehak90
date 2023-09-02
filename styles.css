@@ -35,7 +35,7 @@ body{
 #text{
 	text-align: center;
 }
-.my-link{
+a{
 	text-decoration-line: none;
 	color:black;
 	
